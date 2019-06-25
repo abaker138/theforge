@@ -2,34 +2,28 @@
 	width: 100vw;
 	
 }
-iframe {
-	width: 80vw;
-
-}
-
-body {
-	justify-content: center;
-}
-
-.para {
-	width: 70vw;
-}
-
-.aboutUs {
-	margin-left: 7vw;
-}
 
 .peek {
 	color: white;
 	text-decoration: none;
-	width: 100vw;
 	text-align: center;
-	margin: 40vw;
 	background-color: black;
 	padding: 5px;
 	border-radius: 25%;
 	font-size: 4vh;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+}
 
+.aboutUs {
+	margin-left: 7vw;
+	font-size: 4vh;
+}
+
+.para {
+	width: 70vw;
+	font-size: 2vh;
 }
 
 img {

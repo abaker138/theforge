@@ -9,7 +9,11 @@ const Body = () => {
 			<div>
 			
 				<img className='main-image' src={strike} />
-				<a className='peek' href="https://www.peek.com/s/a4cbef24-2211-441c-b5ac-ddbf777d984c/rxE0Y"  data-button-text="Book Now">Knife Making Class</a>
+
+				<div className='peek'>
+				<a className='link' href="https://www.peek.com/s/a4cbef24-2211-441c-b5ac-ddbf777d984c/rxE0Y"  data-button-text="Book Now">Knife Making Class</a>
+				</div>
+
 				<div className='aboutUs'>
 					<h2> About us </h2>
 					<p className='para'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -21,7 +25,6 @@ const Body = () => {
 					llentesque eu tincidunt tortor. Lacus vestibulum sed arcu non odio euismod 
 					lacinia at. Nullam non nisi est sit amet facilisis magna etiam. Sollicitudin
 					 nibh sit </p>
-
 				</div>
 
 
