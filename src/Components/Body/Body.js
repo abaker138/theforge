@@ -7,8 +7,9 @@ import './Body.css'
 const Body = () => {
 	return (
 			<div>
+			
 				<img className='main-image' src={strike} />
-
+				<a className='peek' href="https://www.peek.com/s/a4cbef24-2211-441c-b5ac-ddbf777d984c/rxE0Y"  data-button-text="Book Now">Knife Making Class</a>
 				<div className='aboutUs'>
 					<h2> About us </h2>
 					<p className='para'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 

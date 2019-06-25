@@ -17,6 +17,7 @@
   	display: flex;
  	justify-content: center;
  	align-items: center;
+ 	
   }
 
 
@@ -45,4 +46,8 @@ li {
 	height: 6vh;
 	background-color: white;
 
+}
+
+.fb {
+	height: 15px;
 }

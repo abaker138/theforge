@@ -1,5 +1,6 @@
 .main-image {
 	width: 100vw;
+	
 }
 iframe {
 	width: 80vw;
@@ -16,4 +17,21 @@ body {
 
 .aboutUs {
 	margin-left: 7vw;
+}
+
+.peek {
+	color: white;
+	text-decoration: none;
+	width: 100vw;
+	text-align: center;
+	margin: 40vw;
+	background-color: black;
+	padding: 5px;
+	border-radius: 25%;
+	font-size: 4vh;
+
+}
+
+img {
+	margin-bottom: 15px;
 }
