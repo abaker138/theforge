@@ -1,32 +1,42 @@
 import React from 'react';
 import './Nav.css'
-import anvil from './anvil.png'
+import forgelogo from './theforge.jpg'
 import fblogo from './facebooklogo.png'
 import instalogo from './instalogo.png'
 
 
 const Nav = () => {
 	return (
+
 		<div className='nav'>
+
 			<h3 id='title'> THE FORGE </h3>
-			<img className='logo' src={anvil} />
+
+			<img alt='forging logo' className='logo' src={forgelogo} />
+
 			<ul className='options'>
 				
-		<div className='facebook'>	
+					<div>	
 
-				<li><a href='https://www.facebook.com/theforgeutah/' target="_blank">
-				<img src={fblogo} /></a></li>
+							<li><a 
+							href='https://www.facebook.com/theforgeutah/' 
+							target="_blank"
+							rel="noopener noreferrer">
+							<img className='navlogo' alt= '' src={fblogo} /></a></li>
 
-		</div>
+					</div>
 
-		<div className='facebook'>	
+					<div>	
 
-				<li><a href='https://instagram.com/theforgeutah?igshid=x5bbg7pq6nk5' target="_blank">
-				<img src={instalogo} /></a></li>
+							<li><a 
+							href='https://instagram.com/theforgeutah?igshid=x5bbg7pq6nk5' target="_blank">
+							<img className='navlogo' alt='' src={instalogo} /></a></li>
 
-		</div>
-				<li>About Us</li>
-				<li>Lessons</li>
+					</div>
+							<li><a 
+							className='link' 
+							href="https://www.peek.com/s/a4cbef24-2211-441c-b5ac-ddbf777d984c/rxE0Y"  
+							data-button-text="Lessons">Knife Making Class</a></li>
 			</ul>
 
 
