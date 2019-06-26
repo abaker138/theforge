@@ -1,7 +1,7 @@
 .nav {
 	background-color: black;
 	color: white;
-	height: 7vh;
+	height: 8vh;
 	position: fixed;
  	top: 0; 
  	width: 100vw;
@@ -18,7 +18,7 @@
   	display: flex;
  	justify-content: center;
  	align-content: center;
- 	font-size: 3vh;
+ 	font-size: 4vh;
  	margin-right: 2vw; 	
   }
 
@@ -37,19 +37,20 @@ li {
 	letter-spacing: 4px;
 	border: solid 2px white;
 	text-align: center;
-	font-size: 3vh;
+	font-size: 5vh;
 	display: flex;
 	align-items: center;
 	margin-left: 2vw;
-	background-color: red;
+	margin-top: 1vh;
+	
 }
 
 .logo {
-	height: 5vh;
+	height: 7vh;
 	background-color: white;
-	margin-top: 1.5vh;
+	margin-top: .75vh;
 }
 
 .navlogo {
-	height: 4vh;
+	height: 6vh;
 }

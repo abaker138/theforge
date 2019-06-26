@@ -5,9 +5,13 @@ import './Body.css'
 
 const Body = () => {
 	return (
-			<div >
-			
-				<img alt='' className='main-image' src={strike} />
+			<div className='main-body' >
+				
+				<div>
+					<img alt='' className='background' src={strike} />
+				</div>
+
+				
 
 				<div className='peek'>
 						<a className='link' 
