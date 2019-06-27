@@ -1,15 +1,16 @@
 import React from 'react'
+import ReviewsCard from '../ReviewsCard/ReviewsCard.js'
 
 
 
 
 
 
-const Reviews = () => {
+const Reviews = ({reviewsList}) => {
 	return(
 		<div>
 
-	
+			<ReviewsCard />	
 
 		</div>
 		)

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css'
-import forgelogo from './theforge.jpg'
+import forgelogo from './theforgelogo.png'
 import fblogo from './facebooklogo.png'
 import instalogo from './instalogo.png'
 
@@ -12,7 +12,7 @@ const Nav = () => {
 
 			<h3 id='title'> THE FORGE </h3>
 
-			<img alt='forging logo' className='logo' src={forgelogo} />
+			<img alt='logo' className='logo' src={forgelogo} />
 
 			<ul className='options'>
 				
@@ -29,6 +29,7 @@ const Nav = () => {
 					<div>	
 
 							<li><a 
+							rel="noopener noreferrer"
 							href='https://instagram.com/theforgeutah?igshid=x5bbg7pq6nk5' target="_blank">
 							<img className='navlogo' alt='' src={instalogo} /></a></li>
 
