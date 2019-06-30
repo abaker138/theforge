@@ -56,20 +56,21 @@ li {
 
 @media only screen and (max-width: 600px) {
 	.options {
-		font-size: 3vh;
+		font-size: 2vh;
+		margin-top: 1vh;
 
 	}
 	.logo {
-		height: 5vh;
+		height: 10vw;
 	}
 	.nav{
 		height: 6vh;
 	}
 	.navlogo {
-		height: 3.5vh;
+		height: 6vw;
 	}
 	.title {
-		font-size: 3vh;
+		font-size: 3vw;
 		margin-left: 1vw;
 		margin-top: .25vh;
 		padding: 0;
