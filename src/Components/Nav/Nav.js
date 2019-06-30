@@ -10,7 +10,7 @@ const Nav = () => {
 
 		<div className='nav'>
 
-			<h3 id='title'> THE FORGE </h3>
+			<h3 className='title'> THE FORGE </h3>
 
 			<img alt='logo' className='logo' src={forgelogo} />
 

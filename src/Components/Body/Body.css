@@ -34,3 +34,9 @@
 	font-size: 2vh;
 }
 
+@media only screen and (max-width: 600px) {
+	.peek {
+		font-size: 3vh;
+	}
+}
+

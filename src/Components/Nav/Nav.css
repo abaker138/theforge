@@ -32,7 +32,7 @@ li {
 	margin: 10px;
 }
 
-#title {
+.title {
 	height: 5vh;
 	letter-spacing: 4px;
 	border: solid 2px white;
@@ -52,4 +52,26 @@ li {
 
 .navlogo {
 	height: 6vh;
+}
+
+@media only screen and (max-width: 600px) {
+	.options {
+		font-size: 3vh;
+
+	}
+	.logo {
+		height: 5vh;
+	}
+	.nav{
+		height: 6vh;
+	}
+	.navlogo {
+		height: 3.5vh;
+	}
+	.title {
+		font-size: 3vh;
+		margin-left: 1vw;
+		margin-top: .25vh;
+		padding: 0;
+	}
 }
