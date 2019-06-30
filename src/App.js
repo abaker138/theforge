@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './Components/Nav/Nav.js';
 import Body from './Components/Body/Body.js';
-import Reviews from './Components/Reviews/Reviews.js';
+// import Reviews from './Components/Reviews/Reviews.js';
 import {Reviewslist} from './Components/Reviews/Reviewslist.js'
 
 class App extends Component {
@@ -17,7 +17,7 @@ render () {
     <div className="App">
       <Nav />
       <Body />
-      <Reviews reviewsList={Reviewslist}/>
+      
     </div>
   );
 }
