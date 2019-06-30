@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './Components/Nav/Nav.js';
 import Body from './Components/Body/Body.js';
 // import Reviews from './Components/Reviews/Reviews.js';
-import {Reviewslist} from './Components/Reviews/Reviewslist.js'
+// import {Reviewslist} from './Components/Reviews/Reviewslist.js'
 
 class App extends Component {
 	constructor () {

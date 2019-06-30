@@ -13,13 +13,13 @@
 
 .options {
 	list-style: none;
-  	margin: 0;
+  	margin: 0px;
   	padding: 0;
   	display: flex;
  	justify-content: center;
  	align-content: center;
  	font-size: 4vh;
- 	margin-right: 2vw; 	
+ 	height: 100%;	
   }
 
 
@@ -30,24 +30,24 @@
 
 li {
 	margin: 10px;
+	background-color: 
 }
 
 .title {
-	height: 5vh;
+	height: 80%;
 	letter-spacing: 4px;
 	border: solid 2px white;
 	text-align: center;
-	font-size: 5vh;
+	font-size: 200%;
 	display: flex;
 	align-items: center;
-	margin-left: 2vw;
-	margin-top: 1vh;
+	margin: 0;
 	
 }
 
 .logo {
-	height: 7vh;
-	margin-top: .75vh;
+	height: 100%;
+	margin-top:0;
 }
 
 .navlogo {
@@ -56,23 +56,23 @@ li {
 
 @media only screen and (max-width: 600px) {
 	.options {
-		font-size: 2vh;
-		margin-top: 1vh;
-
+		font-size: 2.75vh;
 	}
-	.logo {
-		height: 10vw;
-	}
+	
 	.nav{
 		height: 6vh;
 	}
 	.navlogo {
-		height: 6vw;
+		height: 7vw;
 	}
 	.title {
-		font-size: 3vw;
 		margin-left: 1vw;
 		margin-top: .25vh;
 		padding: 0;
+		letter-spacing: 0;
+		font-size: 100%;
+	}
+	li {
+		margin: 10px 5px 10px 5px;
 	}
 }
