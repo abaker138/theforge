@@ -13,15 +13,17 @@
 
 .peek {
 	color: white;
-	text-decoration: none;
-	background-color: black;
 	padding: 5px;
-	margin-left: 40vw;
-	border-radius: 20%;
-	font-size: 4vh;
-	width: 20vw;
+	font-size: 8vh;
 	display: flex;
 	justify-content: center;
+}
+
+.peekLink {
+	background-color: black;
+	border-radius: 20%;
+	padding: .25vw;
+
 }
 
 .aboutUs {

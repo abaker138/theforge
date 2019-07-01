@@ -11,10 +11,8 @@ const Body = () => {
 					<img alt='' className='background' src={strike} />
 				</div>
 
-				
-
 				<div className='peek'>
-						<a className='link' 
+						<a className='link peekLink' 
 						href="https://www.peek.com/s/a4cbef24-2211-441c-b5ac-ddbf777d984c/rxE0Y"  
 						data-button-text="Book Now">
 						Knife Making Classes</a>
