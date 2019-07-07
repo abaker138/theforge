@@ -20,15 +20,18 @@ const Body = () => {
 
 				<div className='aboutUs'>
 						<h2> About us </h2>
-						<p className='para'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse 
-						interdum consectetur libero id faucibus nisl tincidunt eget nullam. 
-						Suspendisse in est ante in nibh mauris cursus mattis molestie. In mollis 
-						unc sed id semper risus. At consectetur lorem donec massa sapien faucibus. 
-						ulputate eu scelerisque felis imperdiet proin fermentum. Tellus rutrum tellus 
-						llentesque eu tincidunt tortor. Lacus vestibulum sed arcu non odio euismod 
-						lacinia at. Nullam non nisi est sit amet facilisis magna etiam. Sollicitudin
-						 nibh sit </p>
+						<p className='para'>
+							Since the dawn of time, man has learned and developed to use tools to his advantage. 
+							Starting with a simple hammer, the evolution of technology has grown into manufacturing plants, spurting out products by the masses. We use machine-made items everyday, but do we REALLY know how it came about?
+
+							At The Forge, we take it back to the Iron Age.
+
+							Primitive. Physical. Paleo. Archaic.
+
+							Step into The Forge to learn about the beginnings of what is known as Blacksmithing or Traditional Forging. Become a Farrier for a day and take home what you created with your own hands, manipulating metal to bend it’s knee and bow to your will. 
+
+							Take charge at The Forge.
+ </p>
 				</div>
 
 
