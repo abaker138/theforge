@@ -37,7 +37,7 @@ const Body = () => {
 
 				</div>
 
-				<div className='contactform'>
+				<div className='contactform' netlify>
 
 					<div className='contacttitle'>
 						<h4 className='centertext'>Contact us!</h4>
@@ -62,6 +62,9 @@ const Body = () => {
 					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 					  </div>
 
+					 <p>
+					    <button type="submit">Send</button>
+					 </p>
 
 				</form>
 
