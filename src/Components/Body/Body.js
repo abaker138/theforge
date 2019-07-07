@@ -37,6 +37,36 @@ const Body = () => {
 
 				</div>
 
+				<div className='contactform'>
+
+					<div className='contacttitle'>
+						<h4 className='centertext'>Contact us!</h4>
+						<p className='centertext' >Custom orders, suggestions, questions!</p>
+					</div>
+
+				<form >
+						<div class="form-group">
+					    <label for="exampleFormControlInput1">Name</label>
+					    <input type="textarea" class="form-control" id="exampleFormControlInput1" placeholder="John Snow" />
+					 	</div>
+
+
+					  <div class="form-group">
+					    <label for="exampleFormControlInput1">Email address</label>
+					    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johnsnow@got.com" />
+					  </div>
+
+
+					  <div class="form-group">
+					    <label for="exampleFormControlTextarea1">What can we do for you?</label>
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+
+
+				</form>
+
+				</div>
+
 
 			</div>
 

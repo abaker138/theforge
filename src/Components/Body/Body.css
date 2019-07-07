@@ -29,6 +29,7 @@
 .aboutUs {
 	margin-left: 7vw;
 	font-size: 4vh;
+	margin-bottom: 3vh
 }
 
 .para {
@@ -42,3 +43,11 @@
 	}
 }
 
+.contactform {
+	margin: 3vh;
+	margin-top: 9vh;
+}
+
+.centertext {
+	text-align: center;
+}
