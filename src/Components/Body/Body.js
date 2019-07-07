@@ -37,14 +37,14 @@ const Body = () => {
 
 				</div>
 
-				<div className='contactform' netlify>
+				<div className='contactform' >
 
 					<div className='contacttitle'>
 						<h4 className='centertext'>Contact us!</h4>
 						<p className='centertext' >Custom orders, suggestions, questions!</p>
 					</div>
 
-				<form >
+				<form name="contact" method="post" >
 						<div class="form-group">
 					    <label for="exampleFormControlInput1">Name</label>
 					    <input type="textarea" class="form-control" id="exampleFormControlInput1" placeholder="John Snow" />
@@ -65,6 +65,8 @@ const Body = () => {
 					 <p>
 					    <button type="submit">Send</button>
 					 </p>
+
+					<input type="hidden" name="form-name" value="contact" />
 
 				</form>
 
