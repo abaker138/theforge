@@ -47,19 +47,19 @@ const Body = () => {
 				<form name="contact" method="post" >
 						<div class="form-group">
 					    <label for="exampleFormControlInput1">Name</label>
-					    <input type="textarea" class="form-control" id="exampleFormControlInput1" placeholder="John Snow" />
+					    <input name="name" type="textarea" class="form-control" id="exampleFormControlInput1" placeholder="John Snow" />
 					 	</div>
 
 
 					  <div class="form-group">
 					    <label for="exampleFormControlInput1">Email address</label>
-					    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johnsnow@got.com" />
+					    <input name='email' type="email" class="form-control" id="exampleFormControlInput1" placeholder="johnsnow@got.com" />
 					  </div>
 
 
 					  <div class="form-group">
 					    <label for="exampleFormControlTextarea1">What can we do for you?</label>
-					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					    <textarea name='message' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 					  </div>
 
 					 <p>
